@@ -9,7 +9,7 @@
 - 自动添加5.00x播放速度。（觉得不够可以继续往下看）
 <!--more-->
 ## 使用方法
-具有 ** 开发者工具（俗称F12） ** 的浏览器
+具有 **开发者工具（俗称F12）** 的浏览器
 在 ** console ** 粘贴以下内容：
 ```javascript
 var script = document.createElement('script');
@@ -19,9 +19,9 @@ document.getElementsByTagName('head')[0].appendChild(script);
 
 
 **然后在 console 输入**
-** `showAnswer();` 是显示答案。**
-** `fillBlanks();` 是自动填充*填空题*答案。 **
-** `quickVideo(10);` 是手动设定视频播放速度，括号内填加速的倍数 **
+**`showAnswer();` 是显示答案**
+**`fillBlanks();` 是自动填充*填空题*答案。**
+**`quickVideo(10);` 是手动设定视频播放速度，括号内填加速的倍数**
 *非开发者到此就读完了~*
 
 ----------
